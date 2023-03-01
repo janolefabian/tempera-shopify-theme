@@ -1,0 +1,82 @@
+<style>
+  body.About.Us .video video {
+    object-fit: cover;
+}
+  .About.Us  .video:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background: url('https://cdn.shopify.com/s/files/1/0617/8445/7443/files/overlay.gif?v=1676300893') repeat center top;
+}
+  .About.Us .left-column {
+    border-right: 1px solid #0A0A0A;
+}
+  .About.Us .mainwrap {
+    padding-top: 0;
+}
+  .page .video {
+   
+    position: relative;
+    height: calc(100vh - 350px);
+}
+</style>
+<div class="mainwrap">
+    <div class=" video">
+         <video width="100%" height="100%" autoplay="">
+          <source src="https://cdn.shopify.com/videos/c/o/v/b14ec6da381a4819979347bc917ec782.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video> 
+    </div>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-5 pb-lg-5 pt-5 pb-5">
+                
+                <h2 class="rhch">Sound &amp; Philosophy</h2>
+<p>Tempera Strings were designed to achieve the sound of a modern string reminiscent of gut-string aesthetics but with much easier handling. The result is a string that transmits a musical idea as directly as possible to the instrument, allowing musicians to express themselves as freely as possible. </p>
+<p>Starting point and inspiration was the traditional gut string. Though in many ways ideal, gut strings have a number of technical limitations, such as tuning stability, endurance, excessively low tension and thickness. The goal was to create a string that is committed to its roots but easily playable, quick responding, stable and durable; a string that through its lower tension and high flexibility lets the instrument resonate freely.</p>
+            </div>
+            <div class="col-lg-1 left-column"></div>
+            <div class="col-lg-5 offset-lg-1 pt-lg-5 pb-5">
+                
+                <p>What we call a ‘modern’ string today in fact refers to an invention that is more than 100 years old. As practical as they are, they still fall short, giving neither transparency and clarity nor the beauty of a wide range of sound.
+Its quick response is based on limited amplitude and excessive tension. As such, ‘modern’ strings reflect a trend in the classical music world, which focuses on technical bravura and perfectionism rather than musical expression.
+This impulse brought uniformity, and with it boredom, to the stage, leading the classical music scene into a genuine crisis. But it seems there may be a change in the wind, a shift away from stubborn, monotonous replication and back to personal expression, which is the very essence of music. With Tempera, we hope to contribute to this shift and establish a new standard; a genuinely contemporary string. </p>
+                <br>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "about",
+    "settings": [
+    
+      {
+        "type": "text",
+        "id": "a1",
+        "label": "Heading",
+        "default": "Heading"
+      }
+      
+    ],
+    
+    "presets": [
+      {
+        "name": "about"
+      }
+    ]
+  }
+{% endschema %}
