@@ -57,13 +57,70 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "rh-custom-review",
+    "settings": [
+      
+      {
+      "type": "header",
+      "content": "Review One"
+      },
+      {
+              "id": "ci1",
+              "type": "image_picker",
+              "label": "Customer Image"
+              
+              },
+      {
+        "type": "text",
+        "id": "s1",
+        "label": "Subtitle",
+        "default": "Image with text"
+      },
+       {
+        "type": "text",
+        "id": "h1",
+        "label": "Heading",
+        "default": "Image with text"
+      },
+      {
+        "type": "richtext",
+        "id": "c1",
+        "label": "Content One",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+      },
+
+      
+      {
+       "type": "header",
+      "content": "Column Two"
+      },
+      {
+        "type": "text",
+        "id": "s2",
+        "label": "Subtitle",
+        "default": "Image with text"
+      },
+       {
+        "type": "text",
+        "id": "h2",
+        "label": "Heading",
+        "default": "Image with text"
+      },
+      {
+        "type": "richtext",
+        "id": "c2",
+        "label": "Content One",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+      }
+
+      
+    ],
+    
+    "presets": [
+      {
+        "name": "rh-custom-review"
+      }
+    ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
