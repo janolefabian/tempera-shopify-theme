@@ -75,21 +75,46 @@ For exact shipping cost to you, please feel free to <a href="/en/contact">contac
 
 {% schema %}
   {
-    "name": "faq",
+    "name": "rh-custom-faq",
     "settings": [
-    
-      {
+
+            {
         "type": "text",
-        "id": "a1",
-        "label": "Heading",
-        "default": "Heading"
+        "id": "head1",
+        "label": "Main Heading",
+        "default": "Frequently Aksed Questions"
+      }
+     
+    ],
+    "blocks" : [
+      {
+        "type": "FAQ-Item",
+        "name": "Add FAQ",
+        "settings": [
+      {
+            "type": "header",
+            "content": "FAQ Content"
+          },
+          {
+            "type": "text",
+            "id": "fih",
+            "label": "Item Heading",
+            "default": "Item Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "fic",
+            "label": "Item Content",
+            "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        ]
       }
       
-    ],
-    
+      
+      ],
     "presets": [
       {
-        "name": "faq"
+        "name": "rh-custom-faq"
       }
     ]
   }
