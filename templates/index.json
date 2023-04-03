@@ -8,6 +8,7 @@
     },
     "b29740cf-10b4-435b-b053-07e7205c02ea": {
       "type": "review",
+      "disabled": true,
       "settings": {
         "s1": "Image with text",
         "h1": "Image with text",
