@@ -53,7 +53,7 @@
       },
       {
         "type": "text",
-        "id": "h1",
+        "id": "a1",
         "label": "Customer Name",
         "default": "Customer Name"
       }
