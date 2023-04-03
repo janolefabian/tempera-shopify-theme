@@ -56,6 +56,69 @@
         "id": "a1",
         "label": "Customer Name",
         "default": "Customer Name"
+      },
+      {
+        "type": "header",
+        "content": "Review Two"
+      },
+      {
+        "id": "ci2",
+        "type": "image_picker",
+        "label": "Customer Image"
+      },
+      {
+        "type": "richtext",
+        "id": "c2",
+        "label": "Content One",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+      },
+      {
+        "type": "text",
+        "id": "a2",
+        "label": "Customer Name",
+        "default": "Customer Name"
+      },
+      {
+        "type": "header",
+        "content": "Review three"
+      },
+      {
+        "id": "ci3",
+        "type": "image_picker",
+        "label": "Customer Image"
+      },
+      {
+        "type": "richtext",
+        "id": "c3",
+        "label": "Content One",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+      },
+      {
+        "type": "text",
+        "id": "a3",
+        "label": "Customer Name",
+        "default": "Customer Name"
+      },
+      {
+        "type": "header",
+        "content": "Review four"
+      },
+      {
+        "id": "ci4",
+        "type": "image_picker",
+        "label": "Customer Image"
+      },
+      {
+        "type": "richtext",
+        "id": "c4",
+        "label": "Content One",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+      },
+      {
+        "type": "text",
+        "id": "a4",
+        "label": "Customer Name",
+        "default": "Customer Name"
       }
     ]
   },
