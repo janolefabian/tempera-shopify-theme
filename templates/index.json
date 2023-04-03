@@ -5,9 +5,21 @@
       "settings": {
         "a1": "Heading"
       }
+    },
+    "b29740cf-10b4-435b-b053-07e7205c02ea": {
+      "type": "review",
+      "settings": {
+        "s1": "Image with text",
+        "h1": "Image with text",
+        "c1": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "s2": "Image with text",
+        "h2": "Image with text",
+        "c2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+      }
     }
   },
   "order": [
-    "6e1eb3ee-07f7-4773-b933-bcef59deecd3"
+    "6e1eb3ee-07f7-4773-b933-bcef59deecd3",
+    "b29740cf-10b4-435b-b053-07e7205c02ea"
   ]
 }
