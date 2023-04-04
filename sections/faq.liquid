@@ -9,12 +9,9 @@
   {%- for block in section.blocks -%}
           {%- if block.type == "FAQ-Item" -%}        
                      <div class="question">
-                <h2 data-toggle="collapse" href="#block1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" class="collapsed rhch">+ Why low tension?</h2>
+                <h2 data-toggle="collapse" href="#block1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" class="collapsed rhch">{{ block.settings.fih }}</h2>
                 <div class="multi-collapse collapse" id="block1" style="">
-                    <p>A lot could be written about this question, because it touches on big areas like string sound, acoustics and finally artistic issues.</p>
-<p>In our opinion, today's trend of making double bass strings with over 30kg tension is absolutely not ideal, because the instrument's ability to vibrate is reduced and instead an unfree, compressed sound is produced.</p>
-<p>We should also not ignore the fact that the conception of today's instruments comes from a time when playing was done on gut strings with about 18kg per string.
-So the question is really, what is the "normal" tension for a string?</p>
+                    <p>{{ block.settings.fic }}</p>
                 </div>
             </div>
        {%- endif -%}
