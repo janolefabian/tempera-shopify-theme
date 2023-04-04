@@ -1,1 +1,42 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"193e5f62-492f-428d-a6f9-cf3be92c6773":{"type":"faq","settings":{"a1":"Heading"}}},"order":["main","193e5f62-492f-428d-a6f9-cf3be92c6773"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "193e5f62-492f-428d-a6f9-cf3be92c6773": {
+      "type": "faq",
+      "blocks": {
+        "65fd954a-8cf7-4149-b155-e66840b04681": {
+          "type": "FAQ-Item",
+          "settings": {
+            "fih": "+ Why low tension?",
+            "fic": "<p>A lot could be written about this question, because it touches on big areas like string sound, acoustics and finally artistic issues.<\/p><p>In our opinion, today's trend of making double bass strings with over 30kg tension is absolutely not ideal, because the instrument's ability to vibrate is reduced and instead an unfree, compressed sound is produced.<\/p><p>We should also not ignore the fact that the conception of today's instruments comes from a time when playing was done on gut strings with about 18kg per string. So the question is really, what is the \"normal\" tension for a string?<\/p>"
+          }
+        },
+        "c77de363-7c36-45e4-befc-1388e9fd18e6": {
+          "type": "FAQ-Item",
+          "settings": {
+            "fih": "Item Heading",
+            "fic": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "65fd954a-8cf7-4149-b155-e66840b04681",
+        "c77de363-7c36-45e4-befc-1388e9fd18e6"
+      ],
+      "settings": {
+        "head1": "Frequently Aksed Questions"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "193e5f62-492f-428d-a6f9-cf3be92c6773"
+  ]
+}
