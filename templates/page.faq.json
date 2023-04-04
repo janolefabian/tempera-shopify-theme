@@ -24,11 +24,59 @@
             "fih": "+ Do you recommend Tempera Strings for Jazz players?",
             "fic": "<p>The Tempera Strings are currently available only as an arco-optimized version. A more pizz-friendly model is in developement but it might take a while to be released. You can sign up for the news letter or <a href=\"http:\/\/typeform.tempera-strings.com\/\" target=\"_blank\">preorder<\/a>. Or, if you are in a hurry, you can choose a pizz oriented model from the Sonores Workshop <a href=\"https:\/\/www.sonores-strings.de\/\" target=\"_blank\">www.sonores-strings.de<\/a><\/p>"
           }
+        },
+        "a25b90fa-5997-4603-aaa1-8417fab5d7db": {
+          "type": "FAQ-Item",
+          "settings": {
+            "fih": "+ How long do Tempera Strings last?",
+            "fic": "<p>Our strings have a very long life span when treated well and mounted correctly. Please check out our instructions <a href=\"http:\/\/mount.tempera-strings.com\/\" target=\"_blank\">here<\/a>.<\/p><p>The strings are designed to sound ideal not just in the first weeks, but AFTER the first weeks. Bear in mind that both new strings and the instrument itself need a few days to mature and acquire the desired sound.<\/p>"
+          }
+        },
+        "e861ef76-c0d5-4844-81ae-e048606c58a8": {
+          "type": "FAQ-Item",
+          "settings": {
+            "fih": "+ How do I clean the strings?",
+            "fic": "<p>Alcohol is best for cleaning.<\/p>"
+          }
+        },
+        "a1796baf-b808-40f9-a028-7b04bdb9eaa9": {
+          "type": "FAQ-Item",
+          "settings": {
+            "fih": "+ Do you ship to... ?",
+            "fic": "<p>We do ship to (nearly) any country in the world. In some cases though, it might be easier to contact one of our <a href=\"https:\/\/tempera-store.myshopify.com\/en\/partners\">partners <\/a>in your area.<\/p>"
+          }
+        },
+        "15c0eb0b-50a7-48e7-bc1f-263e44ebe406": {
+          "type": "FAQ-Item",
+          "settings": {
+            "fih": "+ Shipping costs",
+            "fic": "<p>Shipping costs are borne by the buyer and depend on the destination country. For exact shipping cost to you, please feel free to <a href=\"https:\/\/tempera-store.myshopify.com\/en\/contact\">contact us<\/a>.<\/p>"
+          }
+        },
+        "8e290f5e-19e1-4b31-8896-a517bce51190": {
+          "type": "FAQ-Item",
+          "settings": {
+            "fih": "+ Warranty",
+            "fic": "<p>We currently don't give a warranty on the <strong>Tempera<\/strong> strings.<\/p>"
+          }
+        },
+        "f5af6260-5bde-4414-8d74-aba31b954c6c": {
+          "type": "FAQ-Item",
+          "settings": {
+            "fih": "+ Endorsements \/ Test sets",
+            "fic": "<p>Due to the significantly complex production process, we don't give away strings for free. If you are interested in testing out our strings, you can either visit us in Berlin or one of our <a href=\"https:\/\/tempera-store.myshopify.com\/en\/partners\">partners<\/a>.<\/p>"
+          }
         }
       },
       "block_order": [
         "65fd954a-8cf7-4149-b155-e66840b04681",
-        "c77de363-7c36-45e4-befc-1388e9fd18e6"
+        "c77de363-7c36-45e4-befc-1388e9fd18e6",
+        "a25b90fa-5997-4603-aaa1-8417fab5d7db",
+        "e861ef76-c0d5-4844-81ae-e048606c58a8",
+        "a1796baf-b808-40f9-a028-7b04bdb9eaa9",
+        "15c0eb0b-50a7-48e7-bc1f-263e44ebe406",
+        "8e290f5e-19e1-4b31-8896-a517bce51190",
+        "f5af6260-5bde-4414-8d74-aba31b954c6c"
       ],
       "settings": {
         "head1": "Frequently Aksed Questions"
