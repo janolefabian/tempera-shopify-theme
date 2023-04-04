@@ -6,7 +6,8 @@
         </div>
         <div class="questions-wrap offset-lg-2 col-lg-8">
 
-          
+  {%- for block in section.blocks -%}
+          {%- if block.type == "FAQ-Item" -%}        
                      <div class="question">
                 <h2 data-toggle="collapse" href="#block1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" class="collapsed rhch">+ Why low tension?</h2>
                 <div class="multi-collapse collapse" id="block1" style="">
@@ -16,6 +17,8 @@
 So the question is really, what is the "normal" tension for a string?</p>
                 </div>
             </div>
+       {%- endif -%}
+        {%- endfor -%}   
 
 
                     <div class="question">
