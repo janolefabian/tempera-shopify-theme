@@ -2970,7 +2970,13 @@ details-disclosure > details {
   .customer button {
     border: transparent solid 1px;
   }
-
+  .field__input:focus,
+  .select__select:focus,
+  .customer .field input:focus,
+  .customer select:focus,
+  .localization-form__select:focus.localization-form__select:after {
+    outline: transparent solid 1px;
+  }
   .button:focus-visible,
   .button:focus,
   .button.focused,
@@ -2981,13 +2987,7 @@ details-disclosure > details {
     outline: solid transparent 1px;
   }
 
-  .field__input:focus,
-  .select__select:focus,
-  .customer .field input:focus,
-  .customer select:focus,
-  .localization-form__select:focus.localization-form__select:after {
-    outline: transparent solid 1px;
-  }
+
 
   .localization-form__select:focus {
     outline: transparent solid 1px;

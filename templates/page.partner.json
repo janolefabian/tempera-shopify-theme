@@ -1,1 +1,25 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"2d9c2d31-5098-4f2a-850f-3ba0c1912b1f":{"type":"partner","settings":{"a1":"Heading"}}},"order":["main","2d9c2d31-5098-4f2a-850f-3ba0c1912b1f"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "2d9c2d31-5098-4f2a-850f-3ba0c1912b1f": {
+      "type": "partner",
+      "settings": {
+        "t1": "Luthiers \/ Instrument makers",
+        "c1": "<p>Tempera strings won't be sold on any online store. We prefere to work together with professional instrument makers who are interested in sound as we are. We will soon release a list of partners here as soon. If you are interested in collaboration with us, please <a href=\"https:\/\/tempera-store.myshopify.com\/en\/contact\">contact<\/a> us. Lets speak about it.<\/p><p>An instrument is a system of many elements interacting with each other. The strings play an important role in this, but in spite of everything we are strongly dependent on a good setup and therefore on luthiers who know their craft.<\/p>",
+        "t2": "Musicians",
+        "c2": "<p>If want to try out the Tempera Strings, there is an easy way to do this:<\/p><p><strong>Speak with your favorite bass maker \/ luthier about it.<\/strong><\/p><p>We are interested to collaborate with instrument makers all over the world to ensure a perfect setup for the needs of our material on the instruments.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2d9c2d31-5098-4f2a-850f-3ba0c1912b1f"
+  ]
+}

@@ -1,6 +1,9 @@
 .product {
   margin: 0;
 }
+.product-rh-custom {
+  margin: 0;
+}
 
 .product.grid {
   gap: 0;
