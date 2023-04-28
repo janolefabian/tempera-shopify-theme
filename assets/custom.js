@@ -45,7 +45,7 @@ jQuery(document).ready(function($){
         }
         else {
             $('.intro').addClass("show");
-            // $('header').css({'top': '0'},1000);
+            // $('header').css({'top': '0'},500);
             $('header').removeClass('scrolled');
         }
 
