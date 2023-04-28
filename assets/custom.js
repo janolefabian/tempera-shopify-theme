@@ -1,5 +1,3 @@
-
-
 jQuery(document).ready(function($){
 
     $('.intro').delay(3000).queue(function(next){
