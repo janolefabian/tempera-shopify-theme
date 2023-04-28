@@ -56,7 +56,7 @@ jQuery(document).ready(function($){
         } 
 
         if(yPos > 380) { // show sticky menu after screen has scrolled down from the top
-            // $('header').css({'top': '-55px'},1000);
+             $('header').css({'top': '-55px'},1000);
             $('header').addClass('scrolled');
         } 
         else {
