@@ -5035,6 +5035,17 @@ header {
       background-position-y: -729px !important;; }
   
   }
+  .collection  .mainwrap {
+      margin-top: 85px !important;
+      min-height: none !important;
+      padding-top: 170px !important;;
+      background: url("https://cdn.shopify.com/s/files/1/0617/8445/7443/files/bassist_s.svg?v=1676300893") no-repeat top center !important;;
+      background-size: 100% auto !important;;
+      background-size: 1300px auto !important;;
+      background-position-x: calc(100vw - 392px) !important;;
+      background-position-y: -729px !important;; }
+  
+  }
 
 .home {
   background-color: #161616; }
