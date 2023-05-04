@@ -19,6 +19,8 @@
 {%- endstyle -%}
 
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
+<div class="mainwrap">
+  
   <div class="collection-hero__inner page-width">
     <div class="collection-hero__text-wrapper">
       <h1 class="collection-hero__title">
@@ -51,6 +53,7 @@
         >
       </div>
     {%- endif -%}
+  </div>
   </div>
 </div>
 
