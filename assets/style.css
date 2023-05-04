@@ -5399,6 +5399,12 @@ header {
   font-size: 36px;
   color: #0A0A0A; }
 
+ul.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .mount img {
   display: block;
   margin: 15px auto 40px auto; }
