@@ -31,6 +31,7 @@
   }
 {%- endstyle -%}
 
+<div class="mainwrap">
 <div class="section-{{ section.id }}-padding">
   {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
   {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
@@ -180,7 +181,7 @@
     </div>
   </div>
 </div>
-
+</div>
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
