@@ -110,7 +110,7 @@ header.scrolled ul.menu-list li a span {
     
 
                                                         
-            <li class="language /de"><a href="/de/" class="external"><a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+            <li class="language /de"><a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
@@ -127,7 +127,7 @@ header.scrolled ul.menu-list li a span {
             <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
           </div>
         {%- endif -%}
-      </a></a></li>
+      </a></li>
     
 </ul>
         </nav>
