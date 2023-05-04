@@ -5033,9 +5033,7 @@ header {
       background-size: 1300px auto !important;;
       background-position-x: calc(100vw - 392px) !important;;
       background-position-y: -729px !important;; }
-  
-  }
-  .collection  .mainwrap {
+    .collection  .mainwrap {
       margin-top: -10px !important;
       min-height: none !important;
       padding-top: 170px !important;;
@@ -5046,6 +5044,8 @@ header {
       background-position-y: -729px !important;; }
   
   }
+  }
+
 
 .home {
   background-color: #161616; }
