@@ -256,7 +256,9 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
 
     {% render 'meta-tags' %}
  
-   
+    <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
 
     {{ content_for_header }}
 
