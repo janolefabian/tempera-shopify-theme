@@ -160,14 +160,7 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
 .mob-only {
     display: none !important;
 }
-  
-   @media only screen and (max-width: 768px) {
-     .mob-only {
-    display: block !important;
-}
-   }
- 
-  
+  @media only screen and (max-width: 600px) {
  div#shopify-section-template--18192151347507__banner {
     margin-top: 0px;
 }
@@ -263,9 +256,7 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
 
     {% render 'meta-tags' %}
  
-    <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+   
 
     {{ content_for_header }}
 
