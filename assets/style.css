@@ -5064,6 +5064,7 @@ header {
       transition: 1s background-color; }
       .home header .navigation {
         filter:invert(0);
+        background-color:transparent;
         border: 0; }
         .home header .navigation a {
           transition: 0.5s color;
