@@ -4926,6 +4926,9 @@ header {
     text-align: left !important;
     border-bottom: 1px solid #0A0A0A;
 }
+.home header {
+  filter: invert(0);
+}
     
       header.scrolled {
         top: -85px; } }
@@ -5061,7 +5064,6 @@ header {
       background-color: transparent;
       transition: 1s background-color; }
       .home header .navigation {
-        filter: invert(1);
         border: 0; }
         .home header .navigation a {
           transition: 0.5s color;
