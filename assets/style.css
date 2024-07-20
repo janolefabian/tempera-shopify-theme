@@ -5059,10 +5059,11 @@ header {
   @media (min-width: 768px) {
     .home header {
       top: -96px;
-      filter:invert(1);
+      
       background-color: transparent;
       transition: 1s background-color; }
       .home header .navigation {
+        filter:invert(0);
         border: 0; }
         .home header .navigation a {
           transition: 0.5s color;
