@@ -4927,7 +4927,7 @@ header {
     border-bottom: 1px solid #0A0A0A;
 }
 .home header {
-  filter: invert(0);
+  filter: invert(0) !important;
 }
     
       header.scrolled {
