@@ -5066,7 +5066,7 @@ header {
         border: 0; }
         .home header .navigation a {
           transition: 0.5s color;
-          color: #000; }
+          color: #fff; }
       .home header.scrolled {
         background-color: #fff; }
         .home header.scrolled a {
