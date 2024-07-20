@@ -5059,6 +5059,7 @@ header {
   @media (min-width: 768px) {
     .home header {
       top: -96px;
+      display:none;
       background-color: transparent;
       transition: 1s background-color; }
       .home header .navigation {
