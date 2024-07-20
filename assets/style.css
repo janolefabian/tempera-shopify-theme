@@ -4912,6 +4912,7 @@ header {
   position: fixed;
   z-index: 1000;
   height: 150px;
+  filter: invert(1);
   text-align: center; }
   header.scrolled {
     top: -96px; }
@@ -4946,6 +4947,8 @@ header {
     position: absolute;
     bottom: 0;
     width: 100%;
+    filter: invert(1);
+    background-color:white;
     justify-content: space-between; }
     header .navigation:before {
       content: '';
