@@ -17,6 +17,36 @@
         "color_scheme": "background-1"
       }
     },
+    "rich_text_yJRpmm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KyrVMy": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>Our new Shop<\/h3>",
+            "heading_size": "h1"
+          }
+        },
+        "text_AaMeMQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are currently switching over to a new ordering system, which is this Shopify Shop. <\/p><p>Please be aware that we currently just offer those products in this shop that are available without waiting time. For the other models (BASSO, SOLO...) please use the form on our regular website <a href=\"https:\/\/www.tempera-strings.com\" target=\"_blank\" title=\"https:\/\/www.tempera-strings.com\">www.tempera-strings.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KyrVMy",
+        "text_AaMeMQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -38,6 +68,7 @@
   },
   "order": [
     "banner",
+    "rich_text_yJRpmm",
     "product-grid"
   ]
 }
