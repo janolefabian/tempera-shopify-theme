@@ -9,6 +9,12 @@
 */
 {
   "sections": {
+    "6e1eb3ee-07f7-4773-b933-bcef59deecd3": {
+      "type": "home",
+      "settings": {
+        "a1": "Heading"
+      }
+    },
     "featured_product_LTWzjJ": {
       "type": "featured-product",
       "blocks": {
@@ -78,12 +84,6 @@
         "padding_bottom": 36
       }
     },
-    "6e1eb3ee-07f7-4773-b933-bcef59deecd3": {
-      "type": "home",
-      "settings": {
-        "a1": "Heading"
-      }
-    },
     "b29740cf-10b4-435b-b053-07e7205c02ea": {
       "type": "review",
       "disabled": true,
@@ -98,8 +98,8 @@
     }
   },
   "order": [
-    "featured_product_LTWzjJ",
     "6e1eb3ee-07f7-4773-b933-bcef59deecd3",
+    "featured_product_LTWzjJ",
     "b29740cf-10b4-435b-b053-07e7205c02ea"
   ]
 }
