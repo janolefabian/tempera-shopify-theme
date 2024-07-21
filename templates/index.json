@@ -1,5 +1,83 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "featured_product_LTWzjJ": {
+      "type": "featured-product",
+      "blocks": {
+        "text_xRgfbV": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_hNzGcW": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_yDqCwF": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_zhr3e3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_P8LPnw": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_V6EWVp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_Yp8wV8": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_xRgfbV",
+        "title_hNzGcW",
+        "price_yDqCwF",
+        "variant_picker_zhr3e3",
+        "quantity_selector_P8LPnw",
+        "buy_buttons_V6EWVp",
+        "share_Yp8wV8"
+      ],
+      "settings": {
+        "product": "tempera-hybrid",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "6e1eb3ee-07f7-4773-b933-bcef59deecd3": {
       "type": "home",
       "settings": {
@@ -20,6 +98,7 @@
     }
   },
   "order": [
+    "featured_product_LTWzjJ",
     "6e1eb3ee-07f7-4773-b933-bcef59deecd3",
     "b29740cf-10b4-435b-b053-07e7205c02ea"
   ]
