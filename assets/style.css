@@ -5040,7 +5040,13 @@ header {
   
   }
 
-
+.index header .navigation {
+        filter:invert(0);
+      background-color:transparent;
+}
+.index header {
+        filter:invert(0);
+}
 .home {
   background-color: #161616; }
   @media (min-width: 768px) {
@@ -5059,12 +5065,9 @@ header {
   @media (min-width: 768px) {
     .home header {
       top: -96px;
-      filter:invert(0);
       background-color: transparent;
       transition: 1s background-color; }
       .home header .navigation {
-        filter:invert(0);
-        background-color:transparent;
         border: 0; }
         .home header .navigation a {
           transition: 0.5s color;
