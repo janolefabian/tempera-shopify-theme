@@ -94,6 +94,57 @@
         "padding_bottom": 28
       }
     },
+    "collapsible_content_4RkQHU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_zxheWH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "truck",
+            "row_content": "<p>We ship worldwide, the shipping costs are calculated in the checkout process.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VcGjH4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Technical Specifications",
+            "icon": "clipboard",
+            "row_content": "<p><strong>Zug:<\/strong> ~ 24kg (53 lbs)<br\/><br\/><strong>Kernmaterial:<\/strong> Synthetische Hochleistungsfasern<br\/><br\/><strong>Wicklung:<\/strong> Schweißbeständiger Stahl<br\/><br\/><strong>Saitenhalter:<\/strong> Schlaufe zum Einhängen<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pqQhWt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ask about this product",
+            "icon": "check_mark",
+            "row_content": "<p>If you have any kind of question, just sent us an email: <a href=\"mailto:contact@tempera-strings.com\" title=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_zxheWH",
+        "collapsible_row_VcGjH4",
+        "collapsible_row_pqQhWt"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "More Info",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_rphjnR": {
       "type": "image-with-text",
       "blocks": {
@@ -137,11 +188,66 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "slideshow_gTzET6": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_XNwhgH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.webp",
+            "heading": "Janne Saksala",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_NzfFAa": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_XNwhgH",
+        "slide_NzfFAa"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "image_with_text_rphjnR"
+    "collapsible_content_4RkQHU",
+    "image_with_text_rphjnR",
+    "slideshow_gTzET6"
   ]
 }
