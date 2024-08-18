@@ -260,6 +260,62 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow with testimonials"
       }
+    },
+    "multicolumn_diUUa3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_brqDPw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5b42645be4bee8d6081e46adfe22a756d9a0b18d-todd.jpg",
+            "title": "Todd Coolman",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NP9dxe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8adebf2390508e62df0bbdc64734b06095d2f173-robertcass.jpg",
+            "title": "Roberto Cassani",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b6e7Fe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e4a97781d200fbdd43f71340f2b1035d11e29320-rufusreid.jpg",
+            "title": "Rufus Reid",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_brqDPw",
+        "column_NP9dxe",
+        "column_b6e7Fe"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -267,6 +323,7 @@
     "related-products",
     "collapsible_content_4RkQHU",
     "image_with_text_rphjnR",
-    "slideshow_gTzET6"
+    "slideshow_gTzET6",
+    "multicolumn_diUUa3"
   ]
 }
