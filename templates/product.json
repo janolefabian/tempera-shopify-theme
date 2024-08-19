@@ -151,8 +151,9 @@
         "column_brqDPw": {
           "type": "column",
           "settings": {
-            "title": "Todd Coolman",
-            "text": "<p>The hybrid strings are truely hybrid! I can use it in Classical, Jazz, or any genre.<\/p>",
+            "image": "shopify:\/\/shop_images\/1.webp",
+            "title": "Božo Paradžik",
+            "text": "<p>This is the future!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -160,9 +161,9 @@
         "column_NP9dxe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8adebf2390508e62df0bbdc64734b06095d2f173-robertcass.jpg",
-            "title": "Roberto Cassani",
-            "text": "<p>I can’t believe how powerful they are even at low tension.<\/p>",
+            "image": "shopify:\/\/shop_images\/f409e461b0adcd8ef144a7730b2181cba56b9dee-szymonmarciniak.jpg",
+            "title": "Szymon Marciniak",
+            "text": "<p>Tempera is a true revolution in the sound of the doublebass. Clear, bright and singing tone quality, quick response, great variety of colours and articulation possibilities.<br\/><br\/>These Strings have it all! <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -170,9 +171,9 @@
         "column_b6e7Fe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/e4a97781d200fbdd43f71340f2b1035d11e29320-rufusreid.jpg",
-            "title": "Rufus Reid",
-            "text": "<p>I am amazed how good the evenness of the sound is throughout the entire range of my bass.<\/p>",
+            "image": "shopify:\/\/shop_images\/b577b9f95407496ee18cf15050e3591186fa517d-a-raciti-classe.png",
+            "title": "Andrew Raciti",
+            "text": "<p>Truly extraordinary<\/p>",
             "link_label": "",
             "link": ""
           }
