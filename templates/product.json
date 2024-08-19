@@ -148,22 +148,22 @@
     "multicolumn_diUUa3": {
       "type": "multicolumn",
       "blocks": {
-        "column_brqDPw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1.webp",
-            "title": "Božo Paradžik",
-            "text": "<p>This is the future!<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_NP9dxe": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/f409e461b0adcd8ef144a7730b2181cba56b9dee-szymonmarciniak.jpg",
             "title": "Szymon Marciniak",
             "text": "<p>Tempera is a true revolution in the sound of the doublebass. Clear, bright and singing tone quality, quick response, great variety of colours and articulation possibilities.<br\/><br\/>These Strings have it all! <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_brqDPw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.webp",
+            "title": "Božo Paradžik",
+            "text": "<p>This is the future!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -180,8 +180,8 @@
         }
       },
       "block_order": [
-        "column_brqDPw",
         "column_NP9dxe",
+        "column_brqDPw",
         "column_b6e7Fe"
       ],
       "settings": {
