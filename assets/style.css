@@ -4809,6 +4809,10 @@ a {
 .menu-list a {
   color: #000 !important;
 }
+.font-label {
+  font-size: 14px;
+  font-weight:400;
+}
 
 a:hover {
   text-decoration: none;
