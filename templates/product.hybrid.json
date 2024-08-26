@@ -123,12 +123,22 @@
             "row_content": "<p>If you have any kind of question, just sent us an email: <\/p><p><a href=\"mailto:contact@tempera-strings.com\" title=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com<\/a><\/p>",
             "page": ""
           }
+        },
+        "collapsible_row_hrtPjX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "More Information",
+            "icon": "question_mark",
+            "row_content": "<p>Please visit our product page for more info:<\/p><p><a href=\"https:\/\/www.tempera-strings.com\/de\/products\" title=\"Tempera Strings Product Page\">https:\/\/www.tempera-strings.com\/de\/products<\/a><\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_zxheWH",
         "collapsible_row_VcGjH4",
-        "collapsible_row_pqQhWt"
+        "collapsible_row_pqQhWt",
+        "collapsible_row_hrtPjX"
       ],
       "settings": {
         "caption": "",
