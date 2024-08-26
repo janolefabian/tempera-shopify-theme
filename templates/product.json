@@ -128,7 +128,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "More Information",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "<p>Visit our Product page for more information<\/p><p><a href=\"https:\/\/www.tempera-strings.com\/de\/products\" title=\"Tempera Strings Product Page\">https:\/\/www.tempera-strings.com\/de\/products<\/a><\/p>",
             "page": ""
           }
