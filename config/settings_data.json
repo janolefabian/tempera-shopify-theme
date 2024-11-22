@@ -1,27 +1,27 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo_width": 90,
-    "favicon": "shopify:\/\/shop_images\/android-chrome-192x192.png",
-    "ci1": "shopify:\/\/shop_images\/1.webp",
-    "c1": "<p>Diese Saiten sind absolute Spitzenklasse! <\/p>",
+    "favicon": "shopify://shop_images/android-chrome-192x192.png",
+    "ci1": "shopify://shop_images/1.webp",
+    "c1": "<p>Diese Saiten sind absolute Spitzenklasse! </p>",
     "a1": "Bozo Paradzik",
-    "ci2": "shopify:\/\/shop_images\/2.webp",
-    "c2": "<p>Es ist für einen Instrumentalisten wie mich Gold wert, jemanden zu haben, mit dem man sich so austauschen kann.<\/p>",
+    "ci2": "shopify://shop_images/2.webp",
+    "c2": "<p>Es ist für einen Instrumentalisten wie mich Gold wert, jemanden zu haben, mit dem man sich so austauschen kann.</p>",
     "a2": "Janne Saksala",
-    "ci3": "shopify:\/\/shop_images\/3.jpg",
-    "c3": "<p>Having a string maker knowing himself what he wants and having a sound in his head that he can put into his string making [...] those strings shaped everything, everything fell into place<\/p>",
+    "ci3": "shopify://shop_images/3.jpg",
+    "c3": "<p>Having a string maker knowing himself what he wants and having a sound in his head that he can put into his string making [...] those strings shaped everything, everything fell into place</p>",
     "a3": "Petter Eldh",
-    "ci4": "shopify:\/\/shop_images\/4.webp",
-    "c4": "<p>Le son de ma contrebasse a doublé de volume et la qualité sonore est devenue plus riche en harmonique<br\/>(The sound of my doublebass has doubled its volume and has become more rich in overtones)<\/p>",
+    "ci4": "shopify://shop_images/4.webp",
+    "c4": "<p>Le son de ma contrebasse a doublé de volume et la qualité sonore est devenue plus riche en harmonique<br/>(The sound of my doublebass has doubled its volume and has become more rich in overtones)</p>",
     "a4": "François Rabbath",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
@@ -129,7 +129,7 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -162,17 +162,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
-    "blocks": {
-      "6143736321357441667": {
-        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -283,7 +273,7 @@
       "sold_out_badge_color_scheme": "inverse",
       "accent_icons": "text",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
