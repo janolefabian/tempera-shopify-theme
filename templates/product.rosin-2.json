@@ -97,14 +97,14 @@
         "heading_UTGh4f": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Introductory Sale",
             "heading_size": "h1"
           }
         },
         "text_dbaFyt": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>For a limited time and while stocks last, we’re including a <strong>free Tempera ROSIN</strong> with your string purchase.</p><p>Simply add both a Strings Set and a Tempera ROSIN to you cart in our shop and the discount will be applied.</p><p>-</p><p>More info about the <strong>Tempera ROSIN:</strong></p><p><a href=\"https://tempera-strings.com/products/rosin-for-double-bass\" target=\"_blank\" title=\"Tempera ROSIN for Double Bass\">tempera-strings.com/products/rosin-for-double-bass</a></p>",
             "text_style": "body"
           }
         }
