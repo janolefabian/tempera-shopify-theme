@@ -95,17 +95,16 @@
             "text_style": "uppercase"
           }
         },
-        "text_DrTgWW": {
-          "type": "text",
-          "settings": {
-            "text": "We offer the new Tempera ROSIN for free with the",
-            "text_style": "body"
-          }
-        },
         "title_DfwWr7": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
+          }
+        },
+        "custom_liquid_3V8qfV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "For a limited time and while stocks last, we’re including a free Tempera ROSIN with your string purchase. <br>\n\nSimply add both a Strings Set and a Tempera ROSIN to you cart in our shop and the discount will be applied."
           }
         },
         "price_qwfcTJ": {
@@ -140,8 +139,8 @@
       },
       "block_order": [
         "text_E8rwWM",
-        "text_DrTgWW",
         "title_DfwWr7",
+        "custom_liquid_3V8qfV",
         "price_qwfcTJ",
         "variant_picker_eCW8WN",
         "quantity_selector_NLRKcK",
