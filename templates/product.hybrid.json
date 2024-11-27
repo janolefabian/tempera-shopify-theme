@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -37,8 +35,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -88,6 +85,84 @@
         "padding_bottom": 28
       }
     },
+    "featured_product_ExpkQY": {
+      "type": "featured-product",
+      "blocks": {
+        "text_E8rwWM": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "text_DrTgWW": {
+          "type": "text",
+          "settings": {
+            "text": "We offer the new Tempera ROSIN for free with the",
+            "text_style": "body"
+          }
+        },
+        "title_DfwWr7": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_qwfcTJ": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_eCW8WN": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_NLRKcK": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_hxzBMA": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_MNfG4q": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_E8rwWM",
+        "text_DrTgWW",
+        "title_DfwWr7",
+        "price_qwfcTJ",
+        "variant_picker_eCW8WN",
+        "quantity_selector_NLRKcK",
+        "buy_buttons_hxzBMA",
+        "share_MNfG4q"
+      ],
+      "settings": {
+        "product": "tempera-rosin-standard",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_4RkQHU": {
       "type": "collapsible-content",
       "blocks": {
@@ -96,7 +171,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "row_content": "<p>We ship worldwide, the shipping costs are calculated in the checkout process.<\/p>",
+            "row_content": "<p>We ship worldwide, the shipping costs are calculated in the checkout process.</p>",
             "page": ""
           }
         },
@@ -105,7 +180,7 @@
           "settings": {
             "heading": "Technical Specifications",
             "icon": "clipboard",
-            "row_content": "<p><strong>Zug:<\/strong> ~ 24kg (53 lbs)<br\/><strong>Kernmaterial:<\/strong> Synthetische Hochleistungsfasern<br\/><strong>Wicklung:<\/strong> Schweißbeständiger Stahl<br\/><strong>Saitenhalter:<\/strong> Schlaufe zum Einhängen<\/p>",
+            "row_content": "<p><strong>Zug:</strong> ~ 24kg (53 lbs)<br/><strong>Kernmaterial:</strong> Synthetische Hochleistungsfasern<br/><strong>Wicklung:</strong> Schweißbeständiger Stahl<br/><strong>Saitenhalter:</strong> Schlaufe zum Einhängen</p>",
             "page": ""
           }
         },
@@ -114,7 +189,7 @@
           "settings": {
             "heading": "Ask about this product",
             "icon": "check_mark",
-            "row_content": "<p>If you have any kind of question, just sent us an email: <\/p><p><a href=\"mailto:contact@tempera-strings.com\" title=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com<\/a><\/p>",
+            "row_content": "<p>If you have any kind of question, just sent us an email: </p><p><a href=\"mailto:contact@tempera-strings.com\" title=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com</a></p>",
             "page": ""
           }
         },
@@ -123,7 +198,7 @@
           "settings": {
             "heading": "More Information",
             "icon": "question_mark",
-            "row_content": "<p>Please visit our product page for more info:<\/p><p><a href=\"https:\/\/www.tempera-strings.com\/de\/products\" title=\"Tempera Strings Product Page\">https:\/\/www.tempera-strings.com\/de\/products<\/a><\/p>",
+            "row_content": "<p>Please visit our product page for more info:</p><p><a href=\"https://www.tempera-strings.com/de/products\" title=\"Tempera Strings Product Page\">https://www.tempera-strings.com/de/products</a></p>",
             "page": ""
           }
         }
@@ -155,9 +230,9 @@
         "column_brqDPw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5b42645be4bee8d6081e46adfe22a756d9a0b18d-todd.jpg",
+            "image": "shopify://shop_images/5b42645be4bee8d6081e46adfe22a756d9a0b18d-todd.jpg",
             "title": "Todd Coolman",
-            "text": "<p>The hybrid strings are truely hybrid! I can use it in Classical, Jazz, or any genre.<\/p>",
+            "text": "<p>The hybrid strings are truely hybrid! I can use it in Classical, Jazz, or any genre.</p>",
             "link_label": "",
             "link": ""
           }
@@ -165,9 +240,9 @@
         "column_NP9dxe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8adebf2390508e62df0bbdc64734b06095d2f173-robertcass.jpg",
+            "image": "shopify://shop_images/8adebf2390508e62df0bbdc64734b06095d2f173-robertcass.jpg",
             "title": "Roberto Cassani",
-            "text": "<p>I can’t believe how powerful they are even at low tension.<\/p>",
+            "text": "<p>I can’t believe how powerful they are even at low tension.</p>",
             "link_label": "",
             "link": ""
           }
@@ -175,9 +250,9 @@
         "column_b6e7Fe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/e4a97781d200fbdd43f71340f2b1035d11e29320-rufusreid.jpg",
+            "image": "shopify://shop_images/e4a97781d200fbdd43f71340f2b1035d11e29320-rufusreid.jpg",
             "title": "Rufus Reid",
-            "text": "<p>I am amazed how good the evenness of the sound is throughout the entire range of my bass.<\/p>",
+            "text": "<p>I am amazed how good the evenness of the sound is throughout the entire range of my bass.</p>",
             "link_label": "",
             "link": ""
           }
@@ -209,6 +284,7 @@
   "order": [
     "main",
     "related-products",
+    "featured_product_ExpkQY",
     "collapsible_content_4RkQHU",
     "multicolumn_diUUa3"
   ]
