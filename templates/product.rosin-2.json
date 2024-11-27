@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_4RkQHU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_zxheWH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "truck",
+            "row_content": "<p>We ship worldwide, the shipping costs are calculated in the checkout process.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VcGjH4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Technical Specifications",
+            "icon": "clipboard",
+            "row_content": "<p><strong>Zug:</strong> ~ 24kg (53 lbs)<br/><strong>Kernmaterial:</strong> Synthetische Hochleistungsfasern<br/><strong>Wicklung:</strong> Schweißbeständiger Stahl<br/><strong>Saitenhalter:</strong> Schlaufe zum Einhängen</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pqQhWt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ask about this product",
+            "icon": "check_mark",
+            "row_content": "<p>If you have any kind of question, just sent us an email: </p><p><a href=\"mailto:contact@tempera-strings.com\" title=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hrtPjX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "More Information",
+            "icon": "question_mark",
+            "row_content": "<p>Please visit our product page for more info:</p><p><a href=\"https://www.tempera-strings.com/de/products\" title=\"Tempera Strings Product Page\">https://www.tempera-strings.com/de/products</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_zxheWH",
+        "collapsible_row_VcGjH4",
+        "collapsible_row_pqQhWt",
+        "collapsible_row_hrtPjX"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "More Info",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 92
+      }
+    },
+    "multicolumn_diUUa3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_brqDPw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5b42645be4bee8d6081e46adfe22a756d9a0b18d-todd.jpg",
+            "title": "Todd Coolman",
+            "text": "<p>The hybrid strings are truely hybrid! I can use it in Classical, Jazz, or any genre.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NP9dxe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/8adebf2390508e62df0bbdc64734b06095d2f173-robertcass.jpg",
+            "title": "Roberto Cassani",
+            "text": "<p>I can’t believe how powerful they are even at low tension.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b6e7Fe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/e4a97781d200fbdd43f71340f2b1035d11e29320-rufusreid.jpg",
+            "title": "Rufus Reid",
+            "text": "<p>I am amazed how good the evenness of the sound is throughout the entire range of my bass.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_brqDPw",
+        "column_NP9dxe",
+        "column_b6e7Fe"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "collapsible_content_4RkQHU",
+    "multicolumn_diUUa3"
+  ]
+}
