@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -37,8 +35,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -88,6 +85,63 @@
         "padding_bottom": 28
       }
     },
+    "featured_product_VpVCDT": {
+      "type": "featured-product",
+      "blocks": {
+        "text_zA3A73": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_TzPazy": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "custom_liquid_CmQTqr": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<b>Introductory Sale</b><br>\nFor a limited time and while stocks last, we’re including a free Tempera ROSIN with your string purchase. <br>\n\nSimply add both a Strings Set and a Tempera ROSIN to you cart in our shop and the discount will be applied."
+          }
+        },
+        "variant_picker_jF3NWL": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons_NdF6cj": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "text_zA3A73",
+        "title_TzPazy",
+        "custom_liquid_CmQTqr",
+        "variant_picker_jF3NWL",
+        "buy_buttons_NdF6cj"
+      ],
+      "settings": {
+        "product": "tempera-rosin-standard",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_4RkQHU": {
       "type": "collapsible-content",
       "blocks": {
@@ -96,7 +150,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "row_content": "<p>We ship worldwide, the shipping costs are calculated in the checkout process.<\/p>",
+            "row_content": "<p>We ship worldwide, the shipping costs are calculated in the checkout process.</p>",
             "page": ""
           }
         },
@@ -105,7 +159,7 @@
           "settings": {
             "heading": "Technical Specifications",
             "icon": "clipboard",
-            "row_content": "<p><strong>Zug:<\/strong> ~ 24kg (53 lbs)<br\/><strong>Kernmaterial:<\/strong> Synthetische Hochleistungsfasern<br\/><strong>Wicklung:<\/strong> Schweißbeständiger Stahl<br\/><strong>Saitenhalter:<\/strong> Schlaufe zum Einhängen<\/p>",
+            "row_content": "<p><strong>Zug:</strong> ~ 24kg (53 lbs)<br/><strong>Kernmaterial:</strong> Synthetische Hochleistungsfasern<br/><strong>Wicklung:</strong> Schweißbeständiger Stahl<br/><strong>Saitenhalter:</strong> Schlaufe zum Einhängen</p>",
             "page": ""
           }
         },
@@ -114,7 +168,7 @@
           "settings": {
             "heading": "Ask about this product",
             "icon": "check_mark",
-            "row_content": "<p>If you have any kind of question, just sent us an email: <\/p><p><a href=\"mailto:contact@tempera-strings.com\" title=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com<\/a><\/p>",
+            "row_content": "<p>If you have any kind of question, just sent us an email: </p><p><a href=\"mailto:contact@tempera-strings.com\" title=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com</a></p>",
             "page": ""
           }
         },
@@ -123,7 +177,7 @@
           "settings": {
             "heading": "More Information",
             "icon": "question_mark",
-            "row_content": "<p>Visit our Product page for more information<\/p><p><a href=\"https:\/\/www.tempera-strings.com\/de\/products\" title=\"Tempera Strings Product Page\">https:\/\/www.tempera-strings.com\/de\/products<\/a><\/p>",
+            "row_content": "<p>Visit our Product page for more information</p><p><a href=\"https://www.tempera-strings.com/de/products\" title=\"Tempera Strings Product Page\">https://www.tempera-strings.com/de/products</a></p>",
             "page": ""
           }
         }
@@ -155,9 +209,9 @@
         "column_NP9dxe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/f409e461b0adcd8ef144a7730b2181cba56b9dee-szymonmarciniak.jpg",
+            "image": "shopify://shop_images/f409e461b0adcd8ef144a7730b2181cba56b9dee-szymonmarciniak.jpg",
             "title": "Szymon Marciniak",
-            "text": "<p>Tempera is a true revolution in the sound of the doublebass. Clear, bright and singing tone quality, quick response, great variety of colours and articulation possibilities.<br\/><br\/>These Strings have it all! <\/p>",
+            "text": "<p>Tempera is a true revolution in the sound of the doublebass. Clear, bright and singing tone quality, quick response, great variety of colours and articulation possibilities.<br/><br/>These Strings have it all! </p>",
             "link_label": "",
             "link": ""
           }
@@ -165,9 +219,9 @@
         "column_brqDPw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1.webp",
+            "image": "shopify://shop_images/1.webp",
             "title": "Božo Paradžik",
-            "text": "<p>This is the future!<\/p>",
+            "text": "<p>This is the future!</p>",
             "link_label": "",
             "link": ""
           }
@@ -175,9 +229,9 @@
         "column_b6e7Fe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b577b9f95407496ee18cf15050e3591186fa517d-a-raciti-classe.png",
+            "image": "shopify://shop_images/b577b9f95407496ee18cf15050e3591186fa517d-a-raciti-classe.png",
             "title": "Andrew Raciti",
-            "text": "<p>Truly extraordinary<\/p>",
+            "text": "<p>Truly extraordinary</p>",
             "link_label": "",
             "link": ""
           }
@@ -209,6 +263,7 @@
   "order": [
     "main",
     "related-products",
+    "featured_product_VpVCDT",
     "collapsible_content_4RkQHU",
     "multicolumn_diUUa3"
   ]
