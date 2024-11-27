@@ -100,9 +100,9 @@
         "collapsible_row_VcGjH4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Technical Specifications",
-            "icon": "clipboard",
-            "row_content": "<p><strong>Zug:</strong> ~ 24kg (53 lbs)<br/><strong>Kernmaterial:</strong> Synthetische Hochleistungsfasern<br/><strong>Wicklung:</strong> Schweißbeständiger Stahl<br/><strong>Saitenhalter:</strong> Schlaufe zum Einhängen</p>",
+            "heading": "Orchestra or Solo?",
+            "icon": "question_mark",
+            "row_content": "",
             "page": ""
           }
         },
