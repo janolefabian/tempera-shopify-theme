@@ -97,6 +97,7 @@
         },
         "title_TzPazy": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_size": "h1"
           }
