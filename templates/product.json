@@ -97,6 +97,7 @@
         },
         "title_TzPazy": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_size": "h1"
           }
@@ -104,7 +105,7 @@
         "custom_liquid_CmQTqr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<b>Introductory Sale</b><br>\nFor a limited time and while stocks last, we’re including a free Tempera ROSIN with your string purchase. <br>\n\nSimply add both a Strings Set and a Tempera ROSIN to you cart in our shop and the discount will be applied."
+            "custom_liquid": "<h2>Product Release</h2>\n<b>Tempera ROSIN Introductory Sale</b><br>\nFor a limited time and while stocks last (!), we’re including a free Tempera ROSIN with your string purchase (HYBRID and BASSO only):<br>\nSimply add both a Strings Set and a Tempera ROSIN to you cart in our shop and the discount will be applied."
           }
         },
         "variant_picker_jF3NWL": {
@@ -127,7 +128,6 @@
         "variant_picker_jF3NWL",
         "buy_buttons_NdF6cj"
       ],
-      "disabled": true,
       "settings": {
         "product": "tempera-rosin-standard",
         "color_scheme": "background-2",
