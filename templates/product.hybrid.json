@@ -163,6 +163,77 @@
         "padding_bottom": 36
       }
     },
+    "featured_product_4nJyUz": {
+      "type": "featured-product",
+      "blocks": {
+        "text_UqUpaU": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_jFcpEG": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "custom_liquid_hgprij": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2>Product Release</h2>\n<b>Tempera ROSIN Introductory Sale</b><br>\nFor a limited time and while stocks last (!), we’re including a free Tempera ROSIN with your string purchase (HYBRID and BASSO only):<br>\nSimply add both a Strings Set and a Tempera ROSIN to you cart in our shop and the discount will be applied."
+          }
+        },
+        "price_b7YeVq": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_jGLydD": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_ExXGpR": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_JUtNz3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "text_UqUpaU",
+        "title_jFcpEG",
+        "custom_liquid_hgprij",
+        "price_b7YeVq",
+        "variant_picker_jGLydD",
+        "quantity_selector_ExXGpR",
+        "buy_buttons_JUtNz3"
+      ],
+      "settings": {
+        "product": "tempera-rosin-standard",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_4RkQHU": {
       "type": "collapsible-content",
       "blocks": {
@@ -285,6 +356,7 @@
     "main",
     "related-products",
     "featured_product_ExpkQY",
+    "featured_product_4nJyUz",
     "collapsible_content_4RkQHU",
     "multicolumn_diUUa3"
   ]
