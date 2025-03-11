@@ -162,7 +162,14 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "6770548097779500122": {
+        "type": "shopify://apps/koala-free-gift/blocks/gifts-embed/baf92dc5-8ffa-40c0-967e-57b74cddc9e3",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Default": {
