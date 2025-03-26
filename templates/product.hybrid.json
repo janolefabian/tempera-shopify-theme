@@ -264,15 +264,6 @@
             "page": ""
           }
         },
-        "collapsible_row_hrtPjX": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "More Information",
-            "icon": "question_mark",
-            "row_content": "<p>Please visit our product page for more info:</p><p><a href=\"https://www.tempera-strings.com/de/products\" title=\"Tempera Strings Product Page\">https://www.tempera-strings.com/de/products</a></p>",
-            "page": ""
-          }
-        },
         "collapsible_row_3FTprU": {
           "type": "collapsible_row",
           "settings": {
@@ -281,14 +272,23 @@
             "row_content": "<p>If you are a business customer within the EU and <br/>have a valid VAT number, you can purchase without VAT. However, this is <br/>not possible through our webshop.</p><p>Instead, please send us an email with the following information:</p><ul><li>Company name</li><li>Full business address</li><li>VAT number (valid for intra-EU trade)</li><li>Desired product(s) and quantity</li></ul><p>We will issue a VAT-free invoice manually. Once payment is received, we will ship your order accordingly.</p><p>Please contact us at: <a href=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com</a></p>",
             "page": ""
           }
+        },
+        "collapsible_row_hrtPjX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "More Information",
+            "icon": "question_mark",
+            "row_content": "<p>Please visit our product page for more info:</p><p><a href=\"https://www.tempera-strings.com/de/products\" title=\"Tempera Strings Product Page\">https://www.tempera-strings.com/de/products</a></p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_zxheWH",
         "collapsible_row_VcGjH4",
         "collapsible_row_pqQhWt",
-        "collapsible_row_hrtPjX",
-        "collapsible_row_3FTprU"
+        "collapsible_row_3FTprU",
+        "collapsible_row_hrtPjX"
       ],
       "settings": {
         "caption": "",
