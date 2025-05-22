@@ -1,18 +1,49 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "6e1eb3ee-07f7-4773-b933-bcef59deecd3": {
       "type": "home",
       "settings": {
         "a1": "Heading"
+      }
+    },
+    "rich_text_AcCzLR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JNpzaG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Tempera at ISB 2025 – June 2–7!</strong></p><p></p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_FB37rp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ll be at the International Society of Bassists Convention.</p><p>Orders placed <strong>before May 27</strong> will ship beforehand.<br/>Orders placed <strong>after May 27</strong> will ship <strong>after June 10</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JNpzaG",
+        "text_FB37rp"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_collection_zMQJCJ": {
@@ -75,15 +106,16 @@
       "settings": {
         "s1": "Image with text",
         "h1": "Image with text",
-        "c1": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "c1": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
         "s2": "Image with text",
         "h2": "Image with text",
-        "c2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+        "c2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
       }
     }
   },
   "order": [
     "6e1eb3ee-07f7-4773-b933-bcef59deecd3",
+    "rich_text_AcCzLR",
     "featured_collection_zMQJCJ",
     "featured_collection_wPG7kE",
     "b29740cf-10b4-435b-b053-07e7205c02ea"
