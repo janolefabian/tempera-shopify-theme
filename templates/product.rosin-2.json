@@ -97,14 +97,14 @@
         "heading_UTGh4f": {
           "type": "heading",
           "settings": {
-            "heading": "Introductory Sale",
-            "heading_size": "h1"
+            "heading": "Tempera ROSIN",
+            "heading_size": "h2"
           }
         },
         "text_dbaFyt": {
           "type": "text",
           "settings": {
-            "text": "<p>Our <em>introductory batch</em> of Tempera Rosin <strong>sold out </strong>quickly—thank you so much for the overwhelming response!<br/>We’re currently finalizing the packaging for the first official production run, which will feature the full <em>Tempera Rosin</em> design (instead of the temporary Leatherwood packaging used at launch).</p><p>-</p><p>More info about the <strong>Tempera ROSIN:</strong></p><p><a href=\"https://tempera-strings.com/products/rosin-for-double-bass\" target=\"_blank\" title=\"Tempera ROSIN for Double Bass\">tempera-strings.com/products/rosin-for-double-bass</a></p>",
+            "text": "<p><strong>What if your strings had the perfect partner?</strong></p><p>The Tempera ROSIN is fine-tuned to match the string's tension, material, and sound profile. The result is a seamless pairing that enhances grip, bow response, and tonal clarity, giving you more control over phrasing and articulation. We developed it in close collaboration with <a href=\"https://www.leatherwoodrosin.com.au/\" target=\"_blank\">Leatherwood Bespoke Rosin</a> and designed it specifically to complement the unique qualities of Tempera Double Bass Strings.</p><p>-</p><p>More info about the <strong>Tempera ROSIN:</strong></p><p><a href=\"https://tempera-strings.com/products/rosin-for-double-bass\" target=\"_blank\" title=\"Tempera ROSIN for Double Bass\">tempera-strings.com/products/rosin-for-double-bass</a></p>",
             "text_style": "body"
           }
         }
@@ -144,7 +144,7 @@
           "settings": {
             "heading": "Orchestra or Solo?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>Tempera Rosin is available in two versions, depending on your playing context and preference:</p><ul><li><strong>Orchestra</strong>: Stickier and grippier, this version emphasizes the attack and produces a strong “pop” at the start of each note. Ideal for orchestral playing where articulation and projection are key.</li><li><strong>Solo</strong>: Designed to sound open and rich in overtones, even with generous application. It produces less surface noise and offers more tonal colors, making it perfect for solo repertoire or players who want a more refined sound.</li></ul><p>Both versions work beautifully with Tempera Strings—it just depends on what you want to bring out in your sound.</p>",
             "page": ""
           }
         },
