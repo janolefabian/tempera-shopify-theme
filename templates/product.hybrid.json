@@ -193,7 +193,6 @@
         },
         "variant_picker_jGLydD": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
