@@ -524,12 +524,6 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
   
   {% render 'qikify-apps' %}
 </head>
-{% if request.country == 'US' or request.country == blank %}
-  <div class="shipping-warning" style="background:#fff3cd; padding:12px; text-align:center; border: 1px solid #ffeeba;">
-    <strong>Notice:</strong> We currently do not ship to the United States. 
-    If you're visiting from the US or your location could not be determined, please contact us before placing an order.
-  </div>
-{% endif %}
   <body class="home  {{ request.page_type }} {{ page.title }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
