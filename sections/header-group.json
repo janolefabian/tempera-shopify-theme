@@ -14,11 +14,28 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_DcdanD": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "announcement_Q4JKHy": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "yx<yx></yx>",
+            "text": "",
             "text_alignment": "center",
             "color_scheme": "background-1",
             "link": ""
@@ -26,6 +43,8 @@
         }
       },
       "block_order": [
+        "announcement_DcdanD",
+        "announcement_Q4JKHy",
         "announcement-bar-0"
       ],
       "settings": {}

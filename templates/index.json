@@ -15,6 +15,30 @@
         "a1": "Heading"
       }
     },
+    "rich_text_gqUGTa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YQxm86": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Notice <strong>only </strong>for US customers:<br/>Due to recent changes in US customs regulations and temporary limitations with our shipping providers, we are currently unable to ship orders to the United States.  <br/></p><p>This is only a temporary situation and we will find a solution soon. To place an order to the US, you can contact us at contact@tempera-strings.com we’ll be happy to assist you directly.  </p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YQxm86"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_AcCzLR": {
       "type": "rich-text",
       "blocks": {
@@ -116,6 +140,7 @@
   },
   "order": [
     "6e1eb3ee-07f7-4773-b933-bcef59deecd3",
+    "rich_text_gqUGTa",
     "rich_text_AcCzLR",
     "featured_collection_zMQJCJ",
     "featured_collection_wPG7kE",
