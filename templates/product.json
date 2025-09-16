@@ -33,6 +33,10 @@
             "picker_type": "button"
           }
         },
+        "essential_upsell_app_block_qjw6mW": {
+          "type": "shopify://apps/essential-upsell/blocks/app-block/50627fd9-24fd-4250-8614-accc12826d80",
+          "settings": {}
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -49,6 +53,7 @@
         "title",
         "price",
         "variant_picker",
+        "essential_upsell_app_block_qjw6mW",
         "quantity_selector",
         "buy_buttons"
       ],
