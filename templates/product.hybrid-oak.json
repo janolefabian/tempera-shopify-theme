@@ -85,84 +85,6 @@
         "padding_bottom": 28
       }
     },
-    "featured_product_ExpkQY": {
-      "type": "featured-product",
-      "blocks": {
-        "text_E8rwWM": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_DfwWr7": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "custom_liquid_3V8qfV": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<b>Introductory Sale</b><br>\nFor a limited time and while stocks last, we’re including a free Tempera ROSIN with your string purchase. <br>\n\nSimply add both a Strings Set and a Tempera ROSIN to you cart in our shop and the discount will be applied."
-          }
-        },
-        "price_qwfcTJ": {
-          "type": "price",
-          "disabled": true,
-          "settings": {}
-        },
-        "variant_picker_eCW8WN": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector_NLRKcK": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
-        "buy_buttons_hxzBMA": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "share_MNfG4q": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_E8rwWM",
-        "title_DfwWr7",
-        "custom_liquid_3V8qfV",
-        "price_qwfcTJ",
-        "variant_picker_eCW8WN",
-        "quantity_selector_NLRKcK",
-        "buy_buttons_hxzBMA",
-        "share_MNfG4q"
-      ],
-      "disabled": true,
-      "settings": {
-        "product": "tempera-rosin-standard",
-        "color_scheme": "background-2",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_product_4nJyUz": {
       "type": "featured-product",
       "blocks": {
@@ -183,7 +105,7 @@
         "custom_liquid_hgprij": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h2>Tempera ROSIN</h2>\n\n\n<p>Our custom rosin was developed together with Leatherwood, tailored specifically for the unique qualities of Tempera Strings. It enhances clarity and grip under the bow, bringing out the full tonal potential of the strings.<br><br>\n\n<b>Add it to your string order and save 25€!</b><br></p>\n\n<a href=\"tempera-strings.com/products/rosin-for-double-bass\" target=\"_blank\" style=\"text-decoration:underline\">More info about the Tempera ROSIN:</a>"
+            "custom_liquid": "<h2>Tempera HYBRID</h2>\n<p>\nIf you’re looking for a thinner string with longer sustain and a very open arco sound even in the highest register, the regular HYBRID might be the better fit.\n</p>"
           }
         },
         "price_b7YeVq": {
@@ -193,6 +115,7 @@
         },
         "variant_picker_jGLydD": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -218,15 +141,16 @@
         "quantity_selector_ExXGpR",
         "buy_buttons_JUtNz3"
       ],
+      "disabled": true,
       "settings": {
-        "product": "tempera-rosin-standard",
+        "product": "tempera-hybrid",
         "color_scheme": "background-2",
         "secondary_background": false,
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -343,6 +267,7 @@
         "column_NP9dxe",
         "column_b6e7Fe"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h1",
@@ -364,7 +289,6 @@
   "order": [
     "main",
     "related-products",
-    "featured_product_ExpkQY",
     "featured_product_4nJyUz",
     "collapsible_content_4RkQHU",
     "multicolumn_diUUa3"
