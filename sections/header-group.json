@@ -55,10 +55,23 @@
       "settings": {
         "menu": "main-menu"
       }
+    },
+    "partner_egEbMC": {
+      "type": "partner",
+      "disabled": true,
+      "custom_css": [],
+      "name": "rh-dynamic-partner",
+      "settings": {
+        "t1": "Heading",
+        "c1": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "t2": "Heading",
+        "c2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "partner_egEbMC"
   ]
 }

@@ -37,6 +37,13 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "text_rhJdUP": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -50,6 +57,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "text_rhJdUP",
         "buy_buttons"
       ],
       "settings": {
