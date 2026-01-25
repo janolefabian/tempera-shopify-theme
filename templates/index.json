@@ -222,12 +222,39 @@
     "featured_collection_zMQJCJ": {
       "type": "featured-collection",
       "settings": {
-        "title": "Strings",
+        "title": "Strings for Classical Music",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "jazz-double-bass-strings",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_i6RY9J": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Strings for Jazz",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "tempera-products",
+        "collection": "jazz-double-bass-strings",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -294,6 +321,7 @@
     "rich_text_gqUGTa",
     "rich_text_AcCzLR",
     "featured_collection_zMQJCJ",
+    "featured_collection_i6RY9J",
     "featured_collection_wPG7kE",
     "b29740cf-10b4-435b-b053-07e7205c02ea"
   ]
