@@ -18,26 +18,17 @@
     "rich_text_e8BrEd": {
       "type": "rich-text",
       "blocks": {
-        "heading_EHY3br": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Merry Christmas.</p>",
-            "heading_size": "h1"
-          }
-        },
         "text_mxTCf7": {
           "type": "text",
           "settings": {
-            "text": "<p>We are taking a short break over the holidays.</p><p>You’re very welcome to place your order, but please note that shipping will resume in January.</p>"
+            "text": "<p>Our workshop will be closed from May 30 to June 8 for a short holiday.</p><p></p><p>You can still place orders as usual, but please note that shipping may be slightly delayed during this period. Thank you for your patience and understanding.</p>"
           }
         }
       },
       "block_order": [
-        "heading_EHY3br",
         "text_mxTCf7"
       ],
-      "disabled": true,
-      "name": "t:sections.rich-text.presets.name",
+      "name": "Urlaub",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
