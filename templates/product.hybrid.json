@@ -183,7 +183,7 @@
         "custom_liquid_hgprij": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h2>Tempera ROSIN</h2>\n\n\n<p>Our custom rosin was developed together with Leatherwood, tailored specifically for the unique qualities of Tempera Strings. It enhances clarity and grip under the bow, bringing out the full tonal potential of the strings.<br><br>\n\n<b>Add it to your string order and save 25€!</b><br></p>\n\n<a href=\"tempera-strings.com/products/rosin-for-double-bass\" target=\"_blank\" style=\"text-decoration:underline\">More info about the Tempera ROSIN:</a>"
+            "custom_liquid": "<h2>Tempera ROSIN</h2>\n\n<p>Our custom rosin was developed together with Leatherwood, tailored specifically for the unique qualities of Tempera Strings. It enhances clarity and grip under the bow, bringing out the full tonal potential of the strings.<br><br>\n\n<b>Add it to your string order and save €25.</b><br></p>\n\n<a href=\"https://www.tempera-strings.com/en/products/rosin-for-double-bass\" style=\"text-decoration:underline\">More information about Tempera ROSIN</a>"
           }
         },
         "price_b7YeVq": {
@@ -250,7 +250,7 @@
           "settings": {
             "heading": "Technical Specifications",
             "icon": "clipboard",
-            "row_content": "<p><strong>Zug:</strong> ~ 24kg (53 lbs)<br/><strong>Kernmaterial:</strong> Synthetische Hochleistungsfasern<br/><strong>Wicklung:</strong> Schweißbeständiger Stahl<br/><strong>Saitenhalter:</strong> Schlaufe zum Einhängen</p>",
+            "row_content": "<p><strong>Tension:</strong> approx. 24 kg (53 lbs)<br/><strong>Core:</strong> high-performance synthetic fibre<br/><strong>Winding:</strong> sweat-resistant steel<br/><strong>Tailpiece:</strong> loop end</p>",
             "page": ""
           }
         },
@@ -259,7 +259,7 @@
           "settings": {
             "heading": "Ask about this product",
             "icon": "check_mark",
-            "row_content": "<p>If you have any kind of question, just sent us an email: </p><p><a href=\"mailto:contact@tempera-strings.com\" title=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com</a></p>",
+            "row_content": "<p>If you have any questions, send us an email:</p><p><a href=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com</a></p>",
             "page": ""
           }
         },
@@ -277,7 +277,7 @@
           "settings": {
             "heading": "More Information",
             "icon": "question_mark",
-            "row_content": "<p>Please visit our product page for more info:</p><p><a href=\"https://www.tempera-strings.com/de/products\" title=\"Tempera Strings Product Page\">https://www.tempera-strings.com/de/products</a></p>",
+            "row_content": "<p>Visit our website for detailed information about every model.</p><p><a href=\"https://www.tempera-strings.com/en/products\">Tempera product guide</a></p>",
             "page": ""
           }
         }
@@ -312,7 +312,7 @@
           "settings": {
             "image": "shopify://shop_images/5b42645be4bee8d6081e46adfe22a756d9a0b18d-todd.jpg",
             "title": "Todd Coolman",
-            "text": "<p>The hybrid strings are truely hybrid! I can use it in Classical, Jazz, or any genre.</p>",
+            "text": "<p>The hybrid strings are truly hybrid! I can use them in classical music, jazz, or any genre.</p>",
             "link_label": "",
             "link": ""
           }

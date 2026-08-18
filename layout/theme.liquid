@@ -292,7 +292,7 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="">
+    <meta name="theme-color" content="#ffffff">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
@@ -314,6 +314,10 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
+
+    {%- if request.page_type == 'product' and product.handle == 'tempera-string-cleaning-cloth' -%}
+      <meta name="robots" content="noindex,nofollow">
+    {%- endif -%}
 
     {% render 'meta-tags' %}
   <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
@@ -503,8 +507,9 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-{{ 'style.css' | asset_url | stylesheet_tag }}
- <script src="{{ 'master.js' | asset_url }}" defer="defer"></script>
+    {{ 'style.css' | asset_url | stylesheet_tag }}
+    {{ 'tempera-refinement.css' | asset_url | stylesheet_tag }}
+    <script src="{{ 'tempera-refinement.js' | asset_url }}" defer="defer"></script>
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -522,7 +527,6 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
     }
     </script>
   
-  {% render 'qikify-apps' %}
 </head>
   <body class="home  {{ request.page_type }} {{ page.title }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">

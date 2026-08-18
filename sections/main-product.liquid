@@ -91,7 +91,6 @@
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                <span class="font-label">Price excl. vat:</span>
                 {%- render 'price',
                   product: product,
                   use_variant: true,
@@ -110,6 +109,28 @@
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- endif -%}
                 </div>
+              {%- endif -%}
+              {%- liquid
+                assign model_intro = ''
+                case product.handle
+                  when 'tempera-basso'
+                    assign model_intro = 'For classical orchestral sound and precise bow response.'
+                  when 'tempera-solo'
+                    assign model_intro = 'Singing tone, projection and effortless control.'
+                  when 'tempera-hybrid'
+                    assign model_intro = 'Open jazz sound for pizzicato and arco.'
+                  when 'tempera-hybrid-oak'
+                    assign model_intro = 'Dark, woody jazz sound with gut-like character.'
+                  when 'tempera-5ths'
+                    assign model_intro = 'Developed for double basses tuned in fifths.'
+                  when 'tempera-sprouts'
+                    assign model_intro = 'Responsive strings for small basses.'
+                  when 'tempera-rosin-standard'
+                    assign model_intro = 'Clear response and controlled grip.'
+                endcase
+              -%}
+              {%- if model_intro != blank -%}
+                <p class="product__model-intro">{{ model_intro }}</p>
               {%- endif -%}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
@@ -571,7 +592,7 @@
       ]
     }
   </script>
-                          
+</div>
 </section>
 
 {% schema %}
