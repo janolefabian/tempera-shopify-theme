@@ -6,10 +6,13 @@
   if (!header || !menu || !toggle) return;
 
   const setMenu = (open) => {
+    const accessibleLabel = toggle.querySelector('.visually-hidden');
+
     menu.hidden = !open;
     menu.classList.toggle('is-open', open);
     toggle.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', String(open));
+    if (accessibleLabel) accessibleLabel.textContent = open ? 'Close menu' : 'Menu';
     document.documentElement.classList.toggle('tempera-menu-open', open);
   };
 

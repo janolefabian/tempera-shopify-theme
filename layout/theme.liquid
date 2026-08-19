@@ -311,15 +311,36 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
-    {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
-    {% endif %}
+    {%- liquid
+      assign tempera_meta_description = page_description
+
+      if request.page_type == 'index'
+        assign tempera_meta_description = 'Tempera double bass strings made in Berlin for classical, solo and jazz playing. Explore BASSO, SOLO, HYBRID, HYBRID Oak and ROSIN.'
+      elsif request.page_type == 'product'
+        case product.handle
+          when 'tempera-basso'
+            assign tempera_meta_description = 'Tempera BASSO double bass strings for classical and orchestral playing: open sound, precise bow response and low tension.'
+          when 'tempera-solo'
+            assign tempera_meta_description = 'Tempera SOLO double bass strings with a singing tone, clear projection and effortless control for solo and orchestral playing.'
+          when 'tempera-hybrid'
+            assign tempera_meta_description = 'Tempera HYBRID double bass strings for jazz: open pizzicato sound, reliable arco response and low tension.'
+          when 'tempera-hybrid-oak'
+            assign tempera_meta_description = 'Tempera HYBRID Oak double bass strings for a dark, woody jazz sound with gut-like character and punchy pizzicato.'
+          when 'tempera-rosin-standard'
+            assign tempera_meta_description = 'Tempera ROSIN for double bass, developed with Leatherwood Bespoke Rosin for clear response and controlled grip.'
+        endcase
+      endif
+    -%}
+
+    {%- if tempera_meta_description != blank -%}
+      <meta name="description" content="{{ tempera_meta_description | escape }}">
+    {%- endif -%}
 
     {%- if request.page_type == 'product' and product.handle == 'tempera-string-cleaning-cloth' -%}
       <meta name="robots" content="noindex,nofollow">
     {%- endif -%}
 
-    {% render 'meta-tags' %}
+    {% render 'meta-tags', meta_description: tempera_meta_description %}
   <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
@@ -581,6 +602,7 @@ aside.tempera span:nth-child(8), aside.tempera span:nth-child(9), aside.tempera 
     </script>
 
     {%- if settings.predictive_search_enabled -%}
+      <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   </body>
