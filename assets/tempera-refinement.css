@@ -52,6 +52,13 @@ html.tempera-menu-open #cart-icon-bubble-mobile {
   margin-top: 0;
 }
 
+@media screen and (max-width: 749px) {
+  .tempera-product-group .product-grid .grid__item {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 .tempera-product-group .card--text .card__inner {
   background: var(--tempera-black);
 }
