@@ -220,10 +220,8 @@
           "settings": {
             "heading_en": "Strings for Classical Music",
             "heading_de": "Saiten für klassische Musik",
-            "product_1": "tempera-basso",
-            "product_2": "tempera-solo",
-            "product_3": "tempera-5ths",
-            "product_4": ""
+            "collection": "tempera-strings-for-classical-music",
+            "products_to_show": 4
           }
         },
         "jazz": {
@@ -231,21 +229,8 @@
           "settings": {
             "heading_en": "Strings for Jazz",
             "heading_de": "Saiten für Jazz",
-            "product_1": "tempera-hybrid",
-            "product_2": "tempera-hybrid-oak",
-            "product_3": "",
-            "product_4": ""
-          }
-        },
-        "small_basses": {
-          "type": "group",
-          "settings": {
-            "heading_en": "Strings for Small Basses",
-            "heading_de": "Saiten für kleine Bässe",
-            "product_1": "tempera-sprouts",
-            "product_2": "",
-            "product_3": "",
-            "product_4": ""
+            "collection": "jazz-double-bass-strings",
+            "products_to_show": 4
           }
         },
         "accessories": {
@@ -253,17 +238,14 @@
           "settings": {
             "heading_en": "Accessories",
             "heading_de": "Zubehör",
-            "product_1": "tempera-rosin-standard",
-            "product_2": "",
-            "product_3": "",
-            "product_4": ""
+            "collection": "accesories-1",
+            "products_to_show": 4
           }
         }
       },
       "block_order": [
         "classical",
         "jazz",
-        "small_basses",
         "accessories"
       ],
       "settings": {

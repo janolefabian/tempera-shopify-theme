@@ -24,19 +24,8 @@
         if request.locale.iso_code == 'de' and block.settings.heading_de != blank
           assign heading = block.settings.heading_de
         endif
-        assign product_count = 0
-        if block.settings.product_1 != blank
-          assign product_count = product_count | plus: 1
-        endif
-        if block.settings.product_2 != blank
-          assign product_count = product_count | plus: 1
-        endif
-        if block.settings.product_3 != blank
-          assign product_count = product_count | plus: 1
-        endif
-        if block.settings.product_4 != blank
-          assign product_count = product_count | plus: 1
-        endif
+        assign product_collection = block.settings.collection
+        assign product_count = product_collection.products_count
       -%}
 
       {%- if product_count > 0 -%}
@@ -48,22 +37,18 @@
             class="grid product-grid contains-card contains-card--product contains-card--standard grid--4-col-desktop grid--2-col-tablet-down"
             role="list"
           >
-            {%- for product_index in (1..4) -%}
-              {%- assign setting_key = 'product_' | append: product_index -%}
-              {%- assign card_product = block.settings[setting_key] -%}
-              {%- if card_product != blank -%}
-                <li class="grid__item">
-                  {% render 'card-product',
-                    card_product: card_product,
-                    media_aspect_ratio: 'square',
-                    show_secondary_image: false,
-                    show_vendor: false,
-                    show_rating: false,
-                    show_quick_add: false,
-                    section_id: section.id
-                  %}
-                </li>
-              {%- endif -%}
+            {%- for card_product in product_collection.products limit: block.settings.products_to_show -%}
+              <li class="grid__item">
+                {% render 'card-product',
+                  card_product: card_product,
+                  media_aspect_ratio: 'square',
+                  show_secondary_image: false,
+                  show_vendor: false,
+                  show_rating: false,
+                  show_quick_add: false,
+                  section_id: section.id
+                %}
+              </li>
             {%- endfor -%}
           </ul>
         </section>
@@ -118,24 +103,18 @@
           "default": "Saiten"
         },
         {
-          "type": "product",
-          "id": "product_1",
-          "label": "Product 1"
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
         },
         {
-          "type": "product",
-          "id": "product_2",
-          "label": "Product 2"
-        },
-        {
-          "type": "product",
-          "id": "product_3",
-          "label": "Product 3"
-        },
-        {
-          "type": "product",
-          "id": "product_4",
-          "label": "Product 4"
+          "type": "range",
+          "id": "products_to_show",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "label": "Products to show",
+          "default": 4
         }
       ]
     }
