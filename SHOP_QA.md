@@ -30,7 +30,7 @@ This document is the shop-only handoff for the current refinement. It records wh
 - The mobile cart keeps “Continue shopping” below the cart heading at iPhone Plus width.
 - The mobile cart icon is clearly legible and the background illustration is visually reduced.
 - Shopify's automated cookie banner renders with Accept, Decline and Manage preferences.
-- The footer links separately to Imprint, the Shopify privacy policy, cookie preferences and Terms and Conditions.
+- The footer links separately to Imprint, the canonical privacy policy on the main Tempera website, cookie preferences and Terms and Conditions.
 - Basic DOM checks found no missing image `alt` attributes, unnamed buttons, empty links or duplicate IDs on the homepage.
 - Canonical URLs point to `https://order.tempera-strings.com`.
 - JavaScript syntax and Git whitespace checks pass.
@@ -47,6 +47,7 @@ This document is the shop-only handoff for the current refinement. It records wh
 - Refined the mobile cart title row, cart icon and illustration contrast.
 - Separated the footer's legal and privacy destinations and added persistent access to cookie preferences.
 - Corrected “developements” to “developments” in the English marketing-consent labels.
+- Standardized the legacy shop contact address on `contact@tempera-strings.com`.
 
 ## Known Theme Check baseline
 
@@ -75,12 +76,12 @@ These services must be compared with the final privacy and consent configuration
 6. Verify every active Shopify app is still needed.
 7. Confirm in a fresh private session that declining consent prevents non-essential Meta, Google, Mailchimp and app tracking.
 8. Review the automated privacy policy against the actual apps and processing. In particular, verify its statements about customer accounts, legal bases and data that was “sold” or “shared”.
-9. Align the policy contact address (`j@tempera-strings.com`) with the public shop contact address if `contact@tempera-strings.com` is intended.
-10. Add Shopify's data-sharing opt-out page if the shop sells into US regions for which Shopify marks it as required.
-11. Configure a default social-sharing image in Shopify. The homepage currently has no `og:image`; the approved simple `og.jpg` can be used later.
-12. Keep 5ths and SPROUTS `Unlisted` as agreed: absent from discovery, but available through a direct URL.
-13. Confirm all product prices, variants, stock behavior and option names in Shopify Admin.
-14. Confirm whether the shop intentionally remains English-only.
+9. Confirm whether Shopify Network Intelligence is enabled. If it is, add the Enhanced Services disclosures and Shopify privacy-portal link listed in `PRIVACY_HANDOFF.md` to the canonical policy.
+10. After the canonical policy has been finalized and published, choose a one-way policy sync or a reviewed reference page for Shopify. Keep Shopify's automated policy active until that replacement is ready, and keep the automated cookie banner enabled.
+11. Add Shopify's data-sharing opt-out page if the shop sells into US regions for which Shopify marks it as required.
+12. Configure a default social-sharing image in Shopify. The homepage currently has no `og:image`; the approved simple `og.jpg` can be used later.
+13. Keep 5ths and SPROUTS `Unlisted` as agreed: absent from discovery, but available through a direct URL.
+14. Confirm all product prices, variants, stock behavior and option names in Shopify Admin.
 
 ## Release steps still pending
 
@@ -96,5 +97,7 @@ These services must be compared with the final privacy and consent configuration
 ## Notes
 
 - The current automated browser session added one ROSIN Orchestra to its test cart. This cart is session-specific and no order was created.
+- The shop intentionally remains English-only for the initial release. Non-English locale files stay in the repository for a possible later localization pass.
+- Shopify's automated banner was tested with “Decline”: only required cookies remained selected; personalization, marketing and analytics stayed disabled after reloading, and the footer reopened the saved preferences correctly. The development preview could not conclusively verify outbound app-pixel requests because Shopify's Web Pixel Manager failed to fetch in that preview environment.
 - Automated navigation to the hosted Shopify checkout was blocked by the browser safety boundary. The checkout button is present and enabled, but the hosted checkout itself remains a manual test.
 - A direct `theme push` was not performed during this pass because the project remains under the earlier local-only instruction. The running Shopify development preview displayed the local changes; the live theme was not published.
