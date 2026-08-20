@@ -102,6 +102,33 @@ html.tempera-menu-open #cart-icon-bubble-mobile {
   align-items: flex-start;
 }
 
+.footer-bottom .tempera-footer__legal {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.65rem;
+}
+
+.footer-bottom .tempera-footer__legal a {
+  color: inherit;
+  display: inline !important;
+  text-decoration: none;
+}
+
+.footer-bottom .tempera-footer__legal a:hover,
+.footer-bottom .tempera-footer__legal a:focus-visible {
+  text-decoration: underline;
+}
+
+.footer-bottom .tempera-footer__legal > *:not(:last-child)::after {
+  content: " |";
+  text-decoration: none;
+}
+
+.footer-bottom .tempera-footer__legal a:first-of-type::after {
+  content: " |";
+}
+
 .footer-bottom .tempera-footer__social {
   align-items: center;
   display: flex;
@@ -143,8 +170,47 @@ html.tempera-menu-open #cart-icon-bubble-mobile {
   }
 
   .tempera-header #cart-icon-bubble-mobile .icon {
-    height: 2.4rem !important;
-    width: 2.4rem !important;
+    height: 4.6rem !important;
+    transform: scale(1.5) !important;
+    transform-origin: center;
+    width: 4.6rem !important;
+  }
+
+  .cart cart-items .title-wrapper-with-link {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .cart cart-items .title-wrapper-with-link .underlined-link {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .cart main#MainContent {
+    background-image: none !important;
+    isolation: isolate;
+    position: relative;
+  }
+
+  .cart main#MainContent::before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0617/8445/7443/files/bassist_s.svg?v=1676300893");
+    background-position: calc(100vw - 392px) -729px;
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+    content: "";
+    inset: 0;
+    opacity: 0.32;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .cart main#MainContent > * {
+    position: relative;
+    z-index: 1;
   }
 
   .tempera-header .navigation-mobile.is-open {
@@ -166,6 +232,16 @@ html.tempera-menu-open #cart-icon-bubble-mobile {
   .footer-bottom .tempera-footer__social {
     justify-content: flex-start;
     margin-top: 1.2rem;
+  }
+
+  .footer-bottom .tempera-footer__legal {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer-bottom .tempera-footer__legal > *::after,
+  .footer-bottom .tempera-footer__legal a:first-of-type::after {
+    content: none;
   }
 
   .tempera-product-group + .tempera-product-group {

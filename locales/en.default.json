@@ -467,9 +467,9 @@
   "shopify": {
     "checkout": {
       "marketing": {
-        "accept_marketing_checkbox_label": "Keep me updated about new developements and products from Tempera",
-        "post_accept_marketing_checkbox_label": "You are subscribed to receive updates about new developements and products from Tempera",
-        "pending_accept_marketing_checkbox_label": "Check your email to confirm the subscription for updates about new developements and products from Tempera"
+        "accept_marketing_checkbox_label": "Keep me updated about new developments and products from Tempera",
+        "post_accept_marketing_checkbox_label": "You are subscribed to receive updates about new developments and products from Tempera",
+        "pending_accept_marketing_checkbox_label": "Check your email to confirm the subscription for updates about new developments and products from Tempera"
       },
       "order_summary": {
         "duties_label": "Duties (no additional fees on delivery)"
@@ -478,7 +478,7 @@
   },
   "customer_accounts": {
     "order_details": {
-      "marketing_checkbox_label": "Email me updates about new developements and products from Tempera"
+      "marketing_checkbox_label": "Email me updates about new developments and products from Tempera"
     }
   }
 }

@@ -1,6 +1,6 @@
 # Tempera Shopify: QA and release status
 
-Stand: 19 August 2026  
+Stand: 20 August 2026
 Branch: `codex/shop-refinement`  
 Shopify development theme: `#197406196096`  
 Live theme: unchanged
@@ -27,9 +27,12 @@ This document is the shop-only handoff for the current refinement. It records wh
 - Cart displayed product, option, price, quantity, subtotal and checkout controls.
 - Homepage, all five product routes, cart and search returned HTTP 200.
 - Homepage, product page and cart produced no browser console errors after fixes.
+- The mobile cart keeps “Continue shopping” below the cart heading at iPhone Plus width.
+- The mobile cart icon is clearly legible and the background illustration is visually reduced.
+- Shopify's automated cookie banner renders with Accept, Decline and Manage preferences.
+- The footer links separately to Imprint, the Shopify privacy policy, cookie preferences and Terms and Conditions.
 - Basic DOM checks found no missing image `alt` attributes, unnamed buttons, empty links or duplicate IDs on the homepage.
 - Canonical URLs point to `https://order.tempera-strings.com`.
-- Shopify Theme Check reports 0 errors and 15 non-blocking legacy warnings.
 - JavaScript syntax and Git whitespace checks pass.
 
 ## Fixes made during this QA pass
@@ -40,6 +43,15 @@ This document is the shop-only handoff for the current refinement. It records wh
 - Restored the missing `search-form.js` dependency before `predictive-search.js`.
 - Added concise homepage and product meta descriptions.
 - Reused the same descriptions for Open Graph and Twitter metadata.
+- Replaced the homepage claim with a quieter model introduction while retaining a semantic H1.
+- Refined the mobile cart title row, cart icon and illustration contrast.
+- Separated the footer's legal and privacy destinations and added persistent access to cookie preferences.
+- Corrected “developements” to “developments” in the English marketing-consent labels.
+
+## Known Theme Check baseline
+
+- Shopify Theme Check inspected 204 files and reports 30 `MatchingTranslations` errors for one English-only customer-account label that is missing from the non-English locale files, plus 16 legacy warnings.
+- The changed Liquid, JSON, JavaScript and CSS render correctly in the development theme. The translation baseline should be resolved together with the decision about supported shop languages instead of inserting unchecked translations.
 
 ## Current shop integrations detected
 
@@ -61,12 +73,14 @@ These services must be compared with the final privacy and consent configuration
 4. Verify shipping destination selection, taxes and final totals in checkout.
 5. Do not place a paid order unless a deliberate test-order procedure is agreed.
 6. Verify every active Shopify app is still needed.
-7. Verify the cookie/privacy banner in a fresh visitor session and relevant regions. No consent interface appeared in the development preview session.
-8. Confirm that Mailchimp, Meta, Google, CartBot, Notify Me and Essential Upsell are covered by the privacy policy and consent mode.
-9. Configure a default social-sharing image in Shopify. The homepage currently has no `og:image`; the approved simple `og.jpg` can be used later.
-10. Decide whether 5ths and SPROUTS should remain directly accessible as `Unlisted` or become fully inaccessible as `Draft`.
-11. Confirm all product prices, variants, stock behavior and option names in Shopify Admin.
-12. Confirm whether the shop intentionally remains English-only.
+7. Confirm in a fresh private session that declining consent prevents non-essential Meta, Google, Mailchimp and app tracking.
+8. Review the automated privacy policy against the actual apps and processing. In particular, verify its statements about customer accounts, legal bases and data that was “sold” or “shared”.
+9. Align the policy contact address (`j@tempera-strings.com`) with the public shop contact address if `contact@tempera-strings.com` is intended.
+10. Add Shopify's data-sharing opt-out page if the shop sells into US regions for which Shopify marks it as required.
+11. Configure a default social-sharing image in Shopify. The homepage currently has no `og:image`; the approved simple `og.jpg` can be used later.
+12. Keep 5ths and SPROUTS `Unlisted` as agreed: absent from discovery, but available through a direct URL.
+13. Confirm all product prices, variants, stock behavior and option names in Shopify Admin.
+14. Confirm whether the shop intentionally remains English-only.
 
 ## Release steps still pending
 

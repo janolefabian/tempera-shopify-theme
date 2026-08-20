@@ -11,8 +11,12 @@
     <div class="row pb-2 pt-2">
       <div class="col-lg-3 col-md-6 pb-3">TEMPERA</div>
       <div class="col-lg-6 col-md-6 impressum">
-        <a href="{{ main_site }}/impressum" class="mb-1">Imprint &amp; Data privacy</a>
-        <a href="{{ main_site }}/agbs">Terms and Conditions</a><br>
+        <nav class="tempera-footer__legal" aria-label="Legal and privacy">
+          <a href="{{ main_site }}/impressum">Imprint</a>
+          <a href="{{ shop.privacy_policy.url | default: '/policies/privacy-policy' }}">Privacy policy</a>
+          <a href="#shopifyReshowConsentBanner">Cookie preferences</a>
+          <a href="{{ main_site }}/agbs">Terms and Conditions</a>
+        </nav>
         <span>Copyright {{ 'now' | date: '%Y' }} © Tempera Strings</span>
       </div>
       <div class="col-lg-3 col-md-6 offset-md-6 offset-lg-0 tempera-footer__social">
