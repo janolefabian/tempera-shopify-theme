@@ -181,9 +181,9 @@
         "collapsible_row_pTwJhT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "B2B Clients – VAT Exemption",
+            "heading": "B2B Clients – VAT",
             "icon": "check_mark",
-            "row_content": "<p>If you are a business customer within the EU and <br/>have a valid VAT number, you can purchase without VAT. However, this is <br/>not possible through our webshop.</p><p>Instead, please send us an email with the following information:</p><ul><li>Company name</li><li>Full business address</li><li>VAT number (valid for intra-EU trade)</li><li>Desired product(s) and quantity</li></ul><p>We will issue a VAT-free invoice manually. Once payment is received, we will ship your order accordingly.</p><p>Please contact us at: <a href=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com</a></p>",
+            "row_content": "<p>Business customers in another EU country can enter their company name and valid VAT number directly at checkout.</p><p>For eligible cross-border orders, Shopify validates the VAT number and applies the reverse-charge mechanism automatically. German domestic orders and orders that are not eligible remain subject to VAT.</p>",
             "page": ""
           }
         },
