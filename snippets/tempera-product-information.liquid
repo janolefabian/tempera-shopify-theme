@@ -1,0 +1,51 @@
+{%- comment -%}
+  Approved product information from the website at commit 2ea7d36 and the
+  product-copy handoff dated 2026-09-11. Only the four confirmed models are
+  covered; other products retain their existing template content.
+{%- endcomment -%}
+{%- liquid
+  assign model_slug = ''
+  assign model_name = ''
+  case product.handle
+    when 'tempera-basso'
+      assign model_slug = 'basso'
+      assign model_name = 'BASSO'
+    when 'tempera-solo'
+      assign model_slug = 'solo'
+      assign model_name = 'SOLO'
+    when 'tempera-hybrid'
+      assign model_slug = 'hybrid'
+      assign model_name = 'HYBRID'
+    when 'tempera-hybrid-oak'
+      assign model_slug = 'oak'
+      assign model_name = 'HYBRID Oak'
+  endcase
+-%}
+
+{%- if model_slug != empty -%}
+  {%- case content_type -%}
+    {%- when 'specifications' -%}
+      <p>
+        <strong>String tension:</strong>
+        {% if product.handle == 'tempera-hybrid-oak' %}approx. 23.5 kg (52 lbs){% else %}approx. 24.5 kg (54 lbs){% endif %}
+        per string on average in the four-string set<br>
+        <strong>Reference length:</strong> calculated for a vibrating string length of 104 cm<br>
+        {% if product.handle == 'tempera-basso' or product.handle == 'tempera-hybrid' %}
+          <strong>Individual tensions:</strong> approx. 25 kg each for E and G; approx. 24 kg each for A and D<br>
+        {% elsif product.handle == 'tempera-solo' %}
+          <strong>Tuning:</strong> Solo tuning, F# B E A (low to high)<br>
+        {% endif %}
+        <strong>Core:</strong> High-performance synthetic fiber<br>
+        <strong>Wrapping:</strong> sweat-resistant steel<br>
+        <strong>Construction:</strong> Loop at the tailpiece
+      </p>
+    {%- when 'model_details' -%}
+      <p><a href="https://tempera-strings.com/en/products/{{ model_slug }}">Read more about Tempera {{ model_name }} on our website</a>.</p>
+    {%- when 'size_fit' -%}
+      <p>
+        Our standard length fits most double basses. If your bass is particularly small or large,
+        <a href="mailto:contact@tempera-strings.com">please contact us before ordering</a>.
+        Together we can check whether a suitable length is in stock or a custom length would be appropriate.
+      </p>
+  {%- endcase -%}
+{%- endif -%}

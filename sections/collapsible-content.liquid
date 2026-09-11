@@ -55,6 +55,14 @@
           {% endif %}
           <div class="grid__item">
             {%- for block in section.blocks -%}
+              {%- capture product_information -%}
+                {%- render 'tempera-product-information', product: product, content_type: block.settings.product_information -%}
+              {%- endcapture -%}
+              {%- assign product_information = product_information | strip -%}
+              {%- assign product_information_heading = block.settings.heading | default: block.settings.page.title -%}
+              {%- if block.settings.product_information == 'size_fit' and product_information != empty -%}
+                {%- assign product_information_heading = 'Size & fit' -%}
+              {%- endif -%}
               <div
                 class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
                 {{ block.shopify_attributes }}
@@ -68,7 +76,7 @@
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                     {% render 'icon-accordion', icon: block.settings.icon %}
                     <h3 class="accordion__title h4">
-                      {{ block.settings.heading | default: block.settings.page.title }}
+                      {{ product_information_heading }}
                     </h3>
                     {% render 'icon-caret' %}
                   </summary>
@@ -78,7 +86,11 @@
                     role="region"
                     aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                   >
-                    {{ block.settings.row_content }}
+                    {%- if product_information != empty -%}
+                      {{ product_information }}
+                    {%- else -%}
+                      {{ block.settings.row_content }}
+                    {%- endif -%}
                     {{ block.settings.page.content }}
                   </div>
                 </details>
@@ -500,6 +512,19 @@
           ],
           "default": "check_mark",
           "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.icon.label"
+        },
+        {
+          "type": "select",
+          "id": "product_information",
+          "label": "Product information",
+          "info": "Model-specific content for BASSO, SOLO, HYBRID and HYBRID Oak. Other products use the row text.",
+          "default": "none",
+          "options": [
+            { "value": "none", "label": "Use row text" },
+            { "value": "specifications", "label": "String specifications" },
+            { "value": "size_fit", "label": "Size & fit" },
+            { "value": "model_details", "label": "Model website link" }
+          ]
         },
         {
           "type": "richtext",

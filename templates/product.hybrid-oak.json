@@ -183,7 +183,8 @@
             "heading": "Technical Specifications",
             "icon": "clipboard",
             "row_content": "<p><strong>Tension:</strong> approx. 24 kg (53 lbs)<br/><strong>Core:</strong> high-performance synthetic fibre<br/><strong>Winding:</strong> sweat-resistant steel<br/><strong>Tailpiece:</strong> loop end</p>",
-            "page": ""
+            "page": "",
+            "product_information": "specifications"
           }
         },
         "collapsible_row_pqQhWt": {
@@ -192,7 +193,8 @@
             "heading": "Ask about this product",
             "icon": "check_mark",
             "row_content": "<p>If you have any questions, send us an email:</p><p><a href=\"mailto:contact@tempera-strings.com\">contact@tempera-strings.com</a></p>",
-            "page": ""
+            "page": "",
+            "product_information": "size_fit"
           }
         },
         "collapsible_row_3FTprU": {
@@ -210,7 +212,8 @@
             "heading": "More Information",
             "icon": "question_mark",
             "row_content": "<p>Visit our website for detailed information about every model.</p><p><a href=\"https://www.tempera-strings.com/en/products\">Tempera product guide</a></p>",
-            "page": ""
+            "page": "",
+            "product_information": "model_details"
           }
         }
       },
