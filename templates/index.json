@@ -233,6 +233,15 @@
             "products_to_show": 4
           }
         },
+        "group_MCdd4B": {
+          "type": "group",
+          "settings": {
+            "heading_en": "Strings",
+            "heading_de": "Saiten",
+            "collection": "tempera-products",
+            "products_to_show": 4
+          }
+        },
         "accessories": {
           "type": "group",
           "settings": {
@@ -246,6 +255,7 @@
       "block_order": [
         "classical",
         "jazz",
+        "group_MCdd4B",
         "accessories"
       ],
       "settings": {
